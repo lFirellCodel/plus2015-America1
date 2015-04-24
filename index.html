@@ -1,263 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-	<meta charset="UTF-8"/>
-	<meta name="description" content="proyecto web 2015"/> 
+	<meta charset="utf-8" />
+	<meta name="description" content="Proyecto de la primera generación del 2014 del curso de diseño web online" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
-	
-
-	<title>Puls2015:comunidad online de gente atractiva</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="stylos.css">
-
+	<title>Puls2014: Comunidad de personas atractivas y sexy</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="stylos.css" />
+	<script src="prefixfree.js"></script>
 </head>
 <body>
 	<header>
 		<figure id="logo">
-			<img src="logo.png">
+			<img src="logo.png" />
 		</figure>
 		<h1>
-			Comunidad de personas atracctivas y sexy 
+			Puls2015: Comunidad de personas atractivas y sexy
 		</h1>
-		<figure id ="avatar">
-			<img src="avatar.jpg">
+		<figure id="avatar">
+			<img src="avatar.jpg" />
 		</figure>
 	</header>
 	<nav>
-
 		<ul>
 			<li><a href="#">Python</a></li>
 			<li><a href="#">HTML5</a></li>
-			<li><a href="#">JavaScrip</a></li>
+			<li><a href="#">Javascript</a></li>
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
-			<li id="publicar_nav" ><a href="#" class="icon-lapiz">
-						Publicar</a></li>
+			<li id="publicar_nav">
+				<a href="#" class="icon-lapiz" id="mostrar-form">Publicar</a>
+			</li>
 		</ul>
-
 	</nav>
-
+	<form action="" id="formulario" class="formulario">
+		<input type="text" id="titulo" placeholder="Título" required>
+		<input type="url" id="url" placeholder="Link" required>
+		<input type="submit" value="Agregar">
+	</form>
 	<aside>
-
-		<video width="320" height="240" autoplay controls>
-	  		<source src="lecturas.mp4" type="video/mp4">
-	  		<source src="lecturas.ogg" type="video/ogg">
-			<!--Actuliza tu navegador-->
+		<video width="320" height="240" controls autoplay>
+			<source src="lecturas.mp4" type="video/mp4">
+			<source src="lecturas.ogg" type="video/ogg">
+			<!-- Actualiza tu navegador -->
 		</video>
-
 	</aside>
-
 	<section id="contenido">
-
-
 		<article class="item">
-
 			<figure class="imagen_item">
-				<img src="imagen.jpg">
+				<img src="imagen.jpg" />
 			</figure>
-
 			<h2 class="titulo_item">
-			<a href="#">Usa módulos del lado cliente con Browserify </a>
+				<a href="#">
+					Crear un login con Laravel
+				</a>
 			</h2>
-
 			<div class="autor_item">
-				<a href="">Por ..Joana Muñoz</a>
-			</div> 
-			
+				por <a href="#">Joana Muñoz</a>
+			</div>
 			<div class="datos_item">
 				<a href="#" class="tag_item">pony</a>
 				<span class="fecha_item">
-				hace<strong> 5 </strong>min
+					hace <strong>5</strong> min
 				</span>
-				
 			</div>
 			<div class="votacion">
-				<a href="#" class="up  icon-arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				720
-				<a href="#" class="down  icon-abajo"></a>
-				<a href="#" class="comentarios_item  ">3</a>
-				<a href="#" class="guardar_item  icon-estrella"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="comentarios_item">69</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
-
 		</article>
-
-			<article class="item">
-
+		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen.jpg">
+				<img src="imagen.jpg" />
 			</figure>
-
 			<h2 class="titulo_item">
-			<a href="#">Cómo usar la etiqueta template en HTML5 </a>
+				<a href="#">
+					Facebook prueba una forma de monetizar aplicaciones para móviles
+				</a>
 			</h2>
-
 			<div class="autor_item">
-				<a href="">Por ..Joana Muñoz</a>
-			</div> 
-			
+				por <a href="#">Joana Muñoz</a>
+			</div>
 			<div class="datos_item">
 				<a href="#" class="tag_item">pony</a>
 				<span class="fecha_item">
-				hace<strong> 5 </strong>min
+					hace <strong>5</strong> min
 				</span>
-				
 			</div>
 			<div class="votacion">
-				<a href="#" class="up  icon-arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				720
-				<a href="#" class="down  icon-abajo"></a>
-				<a href="#" class="comentarios_item  ">3</a>
-				<a href="#" class="guardar_item  icon-estrella"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="comentarios_item">69</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
-
 		</article>
-
-			<article class="item">
-
+		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen.jpg">
+				<img src="imagen.jpg" />
 			</figure>
-
 			<h2 class="titulo_item">
-			<a href="#">Introducción a Android Wear </a>
+				<a href="#">
+					Cómo medir tu sueño, ejercicio y geolocalizar tu vida
+				</a>
 			</h2>
-
 			<div class="autor_item">
-				<a href="">Por ..Joana Muñoz</a>
-			</div> 
-			
+				por <a href="#">Joana Muñoz</a>
+			</div>
 			<div class="datos_item">
 				<a href="#" class="tag_item">pony</a>
 				<span class="fecha_item">
-				hace<strong> 5 </strong>min
+					hace <strong>5</strong> min
 				</span>
-				
 			</div>
 			<div class="votacion">
-				<a href="#" class="up  icon-arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				720
-				<a href="#" class="down  icon-abajo"></a>
-				<a href="#" class="comentarios_item  ">3</a>
-				<a href="#" class="guardar_item  icon-estrella"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="comentarios_item">69</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
-
 		</article>
-
-			<article class="item">
-
+		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen.jpg">
+				<img src="imagen.jpg" />
 			</figure>
-
 			<h2 class="titulo_item">
-			<a href="#">En Mejorando.la decidimos dar 7 días más de Navidad </a>
+				<a href="#">
+					Top 5 de herramientas para realizar SEO
+				</a>
 			</h2>
-
 			<div class="autor_item">
-				<a href="">Por ..Joana Muñoz</a>
-			</div> 
-			
+				por <a href="#">Joana Muñoz</a>
+			</div>
 			<div class="datos_item">
 				<a href="#" class="tag_item">pony</a>
 				<span class="fecha_item">
-				hace<strong> 5 </strong>min
+					hace <strong>5</strong> min
 				</span>
-				
 			</div>
 			<div class="votacion">
-				<a href="#" class="up  icon-arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				720
-				<a href="#" class="down  icon-abajo"></a>
-				<a href="#" class="comentarios_item  ">3</a>
-				<a href="#" class="guardar_item  icon-estrella"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="comentarios_item">69</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
-			<article class="item">
-
+		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen.jpg">
+				<img src="imagen.jpg" />
 			</figure>
-
 			<h2 class="titulo_item">
-			<a href="#">Automatización de tareas de frontend usando Gulp.js </a>
+				<a href="#">
+					Máscara de recorte en humo con After Effects
+				</a>
 			</h2>
-
 			<div class="autor_item">
-				<a href="">Por ..Joana Muñoz</a>
-			</div> 
-			
+				por <a href="#">Joana Muñoz</a>
+			</div>
 			<div class="datos_item">
 				<a href="#" class="tag_item">pony</a>
 				<span class="fecha_item">
-				hace<strong> 5 </strong>min
+					hace <strong>5</strong> min
 				</span>
-				
 			</div>
 			<div class="votacion">
-				<a href="#" class="up  icon-arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				720
-				<a href="#" class="down  icon-abajo"></a>
-				<a href="#" class="comentarios_item  ">3</a>
-				<a href="#" class="guardar_item  icon-estrella"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="comentarios_item">69</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
-		</article>
-			<article class="item">
-
+		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen.jpg">
+				<img src="imagen.jpg" />
 			</figure>
-
 			<h2 class="titulo_item">
-			<a href="#">Material Design en versiones Anteriores a Lollipop </a>
+				<a href="#">
+					Vagrant, crea entornos de desarrollo virtualizados
+				</a>
 			</h2>
-
 			<div class="autor_item">
-				<a href="">Por ..Joana Muñoz</a>
-			</div> 
-			
+				por <a href="#">Joana Muñoz</a>
+			</div>
 			<div class="datos_item">
 				<a href="#" class="tag_item">pony</a>
 				<span class="fecha_item">
-				hace<strong> 5 </strong>min
+					hace <strong>5</strong> min
 				</span>
-				
 			</div>
 			<div class="votacion">
-				<a href="#" class="up  icon-arriba"></a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				720
-				<a href="#" class="down  icon-abajo"></a>
-				<a href="#" class="comentarios_item  ">3</a>
-				<a href="#" class="guardar_item  icon-estrella"></a>
+				<a href="#" class="down icon-flecha-abajo"></a>
+				<a href="#" class="comentarios_item">69</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 	</section>
 	<footer>
 		<p>
-
-		<stom>Power by Wordpress</stom>
-
+			<strong>Powered by Pony®</strong>
 		</p>
 		<p>
-			mejorando.la 2015
+			mejorando.la 2014
 		</p>
 	</footer>
-
-	<p>		
-
-VISION
-
-
-Ser un profesional de excelencia, que se destaque en el rubro por su eficiencia y calidad en su labor, ser un profesional innovador que permita adaptarme a los constantes cambios del mercado, Ser un profesional integro comprometido con el cambio y desarrollo continuo del país.
-
-
-MISION
-
-
-Soy una persona proactiva, innovadora y responsable capaz de cumplir todos los objetivos y metas propuestas de manera eficiente, comprometido en lograr una formación profesional y personal de excelencia, que permitan aprovechar con eficacia las oportunidades que se me presenten para lograr un desarrollo continuo y que sentaran la bases para el éxito .Soy una persona con convicciones y principios, deseoso de contribuir con crecimiento exponencial de nuestro país, así como de sus habitantes.
-
-	</p>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="formulario.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
