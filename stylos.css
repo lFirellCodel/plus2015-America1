@@ -41,11 +41,11 @@
 	margin-right: 0.2em;
 }
 
-.icon-arriba:before {
+.icon-flecha-arriba:before {
 	content: "\e602";
 }
 
-.icon-abajo:before {
+.icon-flecha-abajo:before {
 	content: "\e603";
 	color: #DD4F24;
 }
